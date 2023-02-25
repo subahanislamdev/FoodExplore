@@ -1,0 +1,32 @@
+.nav-design{
+  background-color: #023b6d;
+  color:whitesmoke !important;
+}
+.footer-design{
+  background-color: #023b6d;
+  color:whitesmoke;
+  top: 500px;
+  padding: 45px 0 100px 0;
+}
+.social-icon{
+  font-size: 15px;
+}
+.social-icon1{
+  font-size: 20px;
+}
+.social-icon1 :hover{
+background-color: cornflowerblue;
+border-radius: 50%;
+padding: 8px;
+position: absolute;
+transition: ease-out 2s;
+}
+.social-text{
+  font-size: 18px;
+  padding: 3px;
+  opacity: .8;
+}
+.social-text:hover{
+  color:#fff!important;
+  opacity: 1;
+}
