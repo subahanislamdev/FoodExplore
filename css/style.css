@@ -1,11 +1,14 @@
+body{
+  background: linear-gradient(rgb(10 55 24),rgb(24 18 65) ,rgb(10 55 24));
+}
 .nav-design{
   background-color: #023b6d;
   color:whitesmoke !important;
 }
 .footer-design{
-  background-color: #023b6d;
+  /* background-color: #023b6d; */
   color:whitesmoke;
-  top: 500px;
+  margin-top: 450px;
   padding: 45px 0 100px 0;
 }
 .social-icon{

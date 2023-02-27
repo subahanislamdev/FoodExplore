@@ -14,11 +14,11 @@ var displayMeals = meals =>{
         var MealsDiv = document.createElement('div')
         MealsDiv.classList.add('col')
         MealsDiv.innerHTML = `
-       <div class="card" onclick ="LoadingDetails(${meal.idMeal})">
+       <div class="card p-4" onclick ="LoadingDetails(${meal.idMeal})">
        <img src=" ${meal.strMealThumb} " class="card-img-top" alt="...">
        <div class="card-body">
        <h5 class="card-title"> ${meal.strMeal}</h5>
-       <p class="card-text">${meal.strInstructions.slice(0,300)} </p>
+       <p class="card-text">${meal.strInstructions.slice(0,250)} </p>
        </div>
        </div>
         `
